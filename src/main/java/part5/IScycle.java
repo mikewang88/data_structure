@@ -1,6 +1,5 @@
 package part5;
 
-import com.sun.prism.impl.PrismTrace;
 
 /**
  * @Author: MikeWang
