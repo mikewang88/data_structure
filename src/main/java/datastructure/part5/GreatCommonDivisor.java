@@ -1,4 +1,4 @@
-package part5;
+package datastructure.part5;
 
 /**
  * 求最大公约数
