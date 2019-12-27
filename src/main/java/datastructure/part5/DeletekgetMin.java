@@ -4,6 +4,7 @@ package datastructure.part5;
  * @Author: MikeWang
  * @Date: 2019/12/26 10:14 AM
  * @Description: 删除k 个数字，要求剩下的数字形成的新整数尽可能小
+ * 时间复杂度O(n)
  */
 public class DeletekgetMin {
     /**
