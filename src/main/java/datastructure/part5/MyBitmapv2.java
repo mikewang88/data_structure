@@ -14,7 +14,7 @@ public class MyBitmapv2 {
 
     public MyBitmapv2(int size) {
         this.size = size;
-        this.words = size;
+        this.words = 0;
     }
 
     /**
@@ -43,7 +43,7 @@ public class MyBitmapv2 {
     }
 
     public static void main(String[] args) {
-        MyBitmap bitmap = new MyBitmap(64);
+        MyBitmapv2 bitmap = new MyBitmapv2(32);
         bitmap.setBit(1);
         bitmap.setBit(2);
         bitmap.setBit(3);
