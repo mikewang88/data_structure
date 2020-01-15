@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class MapTest {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
 
-        HashMap<String, Integer> hashMap = new HashMap<>(1000);
+        HashMap<String, Integer> hashMap = new HashMap<>(10);
         Class clazz = HashMap.class;
 // threshold是hashmap对象里的一个私有变量，若hashmap的size超过该数值，则扩容。这是通过反射获取该值
         Field field = clazz.getDeclaredField("threshold");
